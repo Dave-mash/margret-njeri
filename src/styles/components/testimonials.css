@@ -1,0 +1,61 @@
+@import url('../globals.css');
+
+.testimonialsSection {
+    min-height: 100vh;
+    background: var(--base-color);
+    padding-top: 15rem;
+    color: var(--white);
+    text-align: center;
+    position: relative;
+}
+.testimonials {
+    padding-top: 2rem;
+}
+.testimonialItem {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.recommendation {
+    flex: 54%;
+}
+.testimonialsSectionTitle {
+    font-size: var(--s-font-size);
+    margin-bottom: 2rem;
+}
+.sectionTitle {
+    flex: 46%;
+    padding: 0;
+    margin: 0;
+    font-size: 10rem;
+    text-align: left;
+}
+.text {
+    margin: 0;
+    text-align: left;
+    font-size: var(--l-font-size);
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--s-font-size);
+}
+
+.recommendationDetails {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.recommendationImg {
+    margin-right: 2rem;
+}
+
+.rPhoto {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}

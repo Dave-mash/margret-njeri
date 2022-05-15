@@ -1,0 +1,12 @@
+@import url('../globals.css');
+
+.footer {
+    background-color: var(--base-color);
+    color: var(--white);
+    padding-top: 2rem;
+    padding-left: 2rem;
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

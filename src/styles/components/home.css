@@ -1,0 +1,56 @@
+@import url('../globals.css');
+
+.homeContainer {
+  background-color: var(--base-color);
+  min-height: 100vh;
+  width: 100%;
+  color: var(--white);
+  z-index: 1;
+  text-align: center;
+  position: relative;
+}
+.homeContent {
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  height: 100vh
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 1rem;
+}
+.photoContainer {
+  position: relative;
+  margin-top: -8rem;
+}
+.title {
+  font-size: 20rem;
+  z-index: 2;
+  font-weight: 500;
+}
+.author {
+  width: 620px;
+  height: 780px;
+}
+.intro {
+  width: 65rem;
+  text-align: center;
+  font-size: var(--l-font-size);
+}
+
+
+@media screen and (min-width: 10em) and (max-width: 48em) {
+  .homeContainer {
+    height: 190vh;
+  }
+  .intro {
+    width: 30rem;
+  }
+}

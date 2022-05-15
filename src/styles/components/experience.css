@@ -1,0 +1,61 @@
+@import url('../globals.css');
+
+.experienceContainer {
+    min-height: 100vh;
+    background: var(--base-color);
+    padding-top: 20rem;
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    position: relative;
+}
+.experienceSectionTitle {
+    font-size: var(--s-font-size);
+    margin-bottom: 2rem;
+}
+.experienceSection {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.experienceMenu {
+    flex: 25%;
+    list-style: none;
+    font-size: 3.5rem;
+    padding: 0;
+}
+.menuItem {
+    margin: 0;
+    text-align: left;
+    padding: 2rem;
+    cursor: pointer;
+    border-left: .2rem solid var(--white);
+}
+.activeMenu {
+    background: var(--white);
+    color: var(--base-color);
+    border-color: var(--mustard);
+}
+.spacing {
+    flex: 5%
+}
+.experienceContent {
+    flex: 70%;
+    text-align: left;
+}
+.experienceTitle {
+    font-size: var(--xl-font-size);
+    margin: 0;
+    margin-bottom: .5rem;
+}
+.timeline {
+    font-size: var(--s-font-size);
+}
+.experienceDescription {
+    font-size: var(--l-font-size);
+}
+.responsibilities {
+    font-size: var(--m-font-size);
+}

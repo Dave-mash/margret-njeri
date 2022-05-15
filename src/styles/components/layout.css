@@ -1,0 +1,12 @@
+@import url('../globals.css');
+
+.content {
+    min-height: 70vh;
+}
+
+
+@media screen and (min-width: 10em) and (max-width: 48em) {
+  .content {
+      width: fit-content;
+  }
+}

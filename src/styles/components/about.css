@@ -1,0 +1,42 @@
+@import url('../globals.css');
+
+.aboutContainer {
+    min-height: 100vh;
+    background-color: var(--base-color);
+    color: var(--white);
+    display: flex;
+    align-items: flex-start;
+    padding-top: 15rem;
+    position: relative;
+}
+.about {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutSectionTitle {
+    font-size: var(--s-font-size);
+}
+.aboutContent p {
+    font-size: var(--xl-font-size);
+}
+.skills {
+    font-size: 10rem;
+    margin: 0 auto 10rem auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.experienceBtn {
+    background: none;
+    border: .1rem solid var(--white);
+    border-radius: .3rem;
+    color: var(--white);
+    font-size: var(--s-font-size);
+    padding: 2rem;
+    cursor: pointer;
+}
+.experienceBtn:hover {
+    background: var(--white);
+    color: var(--base-color);
+}
