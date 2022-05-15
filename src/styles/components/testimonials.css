@@ -3,59 +3,54 @@
 .testimonialsSection {
     min-height: 100vh;
     background: var(--base-color);
-    padding-top: 15rem;
+    padding-top: 6rem;
     color: var(--white);
     text-align: center;
     position: relative;
 }
-.testimonials {
-    padding-top: 2rem;
-}
 .testimonialItem {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 .recommendation {
-    flex: 54%;
+    flex: 60%;
 }
 .testimonialsSectionTitle {
-    font-size: var(--s-font-size);
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 .sectionTitle {
-    flex: 46%;
+    flex: 40%;
     padding: 0;
     margin: 0;
-    font-size: 10rem;
+    font-size: var(--l-font-size);
     text-align: left;
 }
 .text {
     margin: 0;
     text-align: left;
-    font-size: var(--l-font-size);
+    font-size: var(--s-font-size);
 }
 .info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    font-size: var(--s-font-size);
+    text-align: left;
+    font-size: .9rem;
 }
 
 .recommendationDetails {
     display: flex;
-    margin: 2rem 0;
 }
 
 .recommendationImg {
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .rPhoto {
-    width: 10rem;
-    height: 10rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
 }

@@ -24,25 +24,25 @@
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  top: 1rem;
+  top: .6rem;
 }
 .photoContainer {
   position: relative;
-  margin-top: -8rem;
+  margin-top: -4rem;
 }
 .title {
-  font-size: 20rem;
+  font-size: 7rem;
   z-index: 2;
   font-weight: 500;
 }
 .author {
-  width: 620px;
-  height: 780px;
+  width: 320px;
+  height: 390px;
 }
 .intro {
-  width: 65rem;
+  width: 27rem;
   text-align: center;
-  font-size: var(--l-font-size);
+  font-size: var(--m-font-size);
 }
 
 

@@ -6,24 +6,26 @@
     color: var(--white);
     display: flex;
     align-items: flex-start;
-    padding-top: 15rem;
+    padding-top: 6rem;
     position: relative;
 }
 .about {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
 }
 .aboutSectionTitle {
-    font-size: var(--s-font-size);
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 .aboutContent p {
-    font-size: var(--xl-font-size);
+    font-size: var(--m-font-size);
+    margin: 0;
 }
 .skills {
-    font-size: 10rem;
-    margin: 0 auto 10rem auto;
-    width: 40%;
+    font-size: var(--xl-font-size);
+    margin: 0 auto 2rem auto;
+    width: 50%;
     display: flex;
     justify-content: space-around;
 }
@@ -32,8 +34,8 @@
     border: .1rem solid var(--white);
     border-radius: .3rem;
     color: var(--white);
-    font-size: var(--s-font-size);
-    padding: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
     cursor: pointer;
 }
 .experienceBtn:hover {

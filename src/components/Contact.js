@@ -21,7 +21,6 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     submit: {
-        margin: theme.spacing(3, 0, 2),
         backgroundColor: theme.palette.success.main,
         padding: theme.spacing(1.5)
     }
@@ -65,7 +64,7 @@ const Contact = () => {
 
     return (
         <section className="contactSection" id="contact">
-            <h1 className="contactSectionTitle">CONTACT</h1><br /><br />
+            <h1 className="contactSectionTitle">CONTACT</h1><br />
             <form onSubmit={formik.handleSubmit} className="form">
                 <TextField
                     name="name"
@@ -102,7 +101,7 @@ const Contact = () => {
                 <TextField
                     fullWidth
                     multiline
-                    minRows={10}
+                    minRows={4}
                     id="message"
                     name="message"
                     label="Message"

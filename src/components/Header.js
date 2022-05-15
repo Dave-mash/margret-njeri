@@ -72,8 +72,8 @@ export default class Header extends Component {
             var home = scrollPs <= vh;
             var about = (scrollPs >= vh) && (scrollPs <= vh * 2);
             var experience = (scrollPs >= vh * 2) && (scrollPs <= vh * 3);
-            var testimonials = (scrollPs >= vh * 3) && (scrollPs <= vh * 4);
-            var contact = (scrollPs >= vh * 4) && (scrollPs <= vh * 5);
+            var testimonials = (scrollPs >= vh * 3) && (scrollPs <= vh * 3.85);
+            var contact = (scrollPs >= vh * 3.85);
         }
 
         console.log('about: ', home, scrollPs)

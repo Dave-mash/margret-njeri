@@ -4,10 +4,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: var(--m-font-size);
+    font-size: 18px;
     font-weight: 500;
     width: 100%;
-    height: 13rem;
+    height: 5rem;
     transition: height 5s, ease-in;
     position: fixed;
     z-index: 3;
@@ -27,11 +27,11 @@
 }
 
 .logoImg {
-    width: 50rem;
-    height: 30rem;
-    left: -14rem;
-    top: -6.5rem;
+    width: 25rem;
+    height: 13rem;
     position: absolute;
+    left: -10.5%;
+    top: -3.5rem;
 }
 
 .navbar {
@@ -47,7 +47,7 @@
 }
 
 .navLink span {
-    margin-right: 3rem;
+    margin-right: 1.5rem;
 }
 
 .navLink:hover {

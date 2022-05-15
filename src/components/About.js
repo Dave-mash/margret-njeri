@@ -23,7 +23,7 @@ const About = () => (
                 <Link to="/#contact"><button className="experienceBtn">SEND ME MAIL</button></Link>
             </div>
         </div>
-        <span className="border"><CgShapeZigzag /></span>
+        {/* <span className="border"><CgShapeZigzag /></span> */}
     </section>
 );
 

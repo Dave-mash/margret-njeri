@@ -3,7 +3,7 @@
 .contactSection {
     min-height: 100vh;
     background: var(--base-color);
-    padding-top: 15rem;
+    padding-top: 6rem;
     color: var(--white);
     text-align: center;
     margin: 0 auto;
@@ -11,10 +11,10 @@
 }
 
 .contactSectionTitle {
-    font-size: var(--s-font-size);
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 .form {
     margin: 0 auto;
-    width: 30%
+    width: 30%;
 }

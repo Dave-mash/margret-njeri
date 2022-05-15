@@ -17,8 +17,8 @@
 }
 .socials {
     cursor: pointer;
-    font-size: 5rem;
-    margin-bottom: 2.5rem;
+    font-size: var(--m-font-size);
+    margin-bottom: 1.25rem;
     color: var(--white);
     transition: 500ms ease-out;
 }
@@ -27,8 +27,8 @@
 }
 .floatingLine {
     background-color: var(--white);
-    height: 20rem;
-    width: .2rem;
+    height: 8rem;
+    width: .1rem;
 }
 
 

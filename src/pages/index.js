@@ -29,7 +29,7 @@ export default function Home() {
                   alt="The author"
                   className="author"
                 />
-              </div><br /><br />
+              </div>
               <p className="intro">I am a Software Engineer based in Nairobi, Kenya</p>
             </div>
           </div>
