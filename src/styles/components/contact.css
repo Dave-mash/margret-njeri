@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 10em) and (max-width: 70em) {
     .contactSection {
-        padding-top: 4rem;
+        padding-top: 10rem;
     }
     .form {
         width: 60%;

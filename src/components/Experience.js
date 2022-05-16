@@ -40,7 +40,6 @@ const Experience = () => {
                     </ul>
                 </div>
             </div>
-            {/* <span className="border"><CgShapeZigzag /></span> */}
         </section>
     )
 }

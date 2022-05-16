@@ -33,6 +33,7 @@ export default function Home() {
               <p className="intro">I am a Software Engineer based in Nairobi, Kenya</p>
             </div>
           </div>
+          <span className="border mb"><CgShapeZigzag /></span>
         </div>
         <About />
         <Experience />
