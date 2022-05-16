@@ -45,12 +45,127 @@
   font-size: var(--m-font-size);
 }
 
+.mb {
+  display: none;
+}
+
 
 @media screen and (min-width: 10em) and (max-width: 48em) {
-  .homeContainer {
-    height: 190vh;
+  .mb {
+    display: block;
+  }
+  .content {
+    position: static;
+    width: 100vw;
+    padding-top: 1rem
+  }
+  .title {
+    font-size: 4rem;
+    line-height: 1.1;
   }
   .intro {
-    width: 30rem;
+    width: 75vw;
+    font-size: 1.2rem;
+  }
+  .homeContent {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .author {
+    width: 57vw;
+    height: auto;
+  }
+  .photoContainer {
+    margin-top: -2rem;
+  }
+}
+
+
+@media screen and (min-width: 10em) and (max-width: 48em) and (orientation: landscape) {
+  .mb {
+    display: none;
+  }
+  .author {
+    width: 30vw;
+    height: auto;
+  }
+  .title {
+    font-size: 3rem;
+    width: 70vw;
+  }
+  .intro {
+    width: 55vw;
+    font-size: 1rem;
+  }
+  .photoContainer {
+    margin-top: -1rem;
+  }
+  .content {
+    padding-top: 1.2rem
+  }
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .content {
+      justify-content: center;
+      margin-top: 8%;
+    }
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .homeContent {
+      width: 70%;
+    }
+    .photoContainer {
+      margin-top: -3.5rem;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 1024px) {
+  .homeContent {
+    width: 75%;
+  }
+  .content {
+    margin-top: 5%;
+  }
+  .photoContainer {
+    margin-top: -3.5rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 1024px) and (orientation: landscape) {
+  .homeContent {
+    width: 75%;
+  }
+  .content {
+    margin-top: 1%;
+  }
+  .photoContainer {
+    margin-top: -2rem;
+  }
+  .photoContainer {
+    margin-top: -2rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .author {
+    width: 28.5vw;
+    height: auto;
+  }
+  .intro {
+    width: 20rem;
+    font-size: 1rem;
   }
 }

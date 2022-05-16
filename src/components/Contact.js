@@ -116,8 +116,7 @@ const Contact = () => {
                     <Button
                         type="submit"
                         variant="contained"
-                        color="primary"
-                        className={classes.submit}
+                        className="submit"
                     >
                         Submit
                     </Button>

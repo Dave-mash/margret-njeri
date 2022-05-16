@@ -12,7 +12,7 @@ const About = () => (
         <div className="about">
             <h1 className="aboutSectionTitle">ABOUT ME</h1>
             <div className="aboutContent">
-                <p>Experienced Founder with a demostrated history of working in the Computer Software industry. Strong business development professional with an Associate's degree focused in Computer Software Engineering from Kenya Methodist University. Passionate about mentorship in all perspectives. A volunteer, facilitator and educator at Upeo Discovery. <br />Skilled in:</p><br />
+                <p>Experienced Founder with a demostrated history of working in the Computer Software industry. Strong business development professional with an Associate's degree focused in Computer Software Engineering from Kenya Methodist University. Passionate about mentorship in all perspectives. A volunteer, facilitator and educator at Upeo Discovery. <br />I am skilled at:</p><br />
                 <div className="skills">
                     <CgCPlusPlus />
                     <FaHtml5 />

@@ -42,3 +42,61 @@
     background: var(--white);
     color: var(--base-color);
 }
+
+
+@media screen and (min-width: 10em) and (max-width: 48em) {
+    .aboutContainer {
+        padding: 4rem 0;
+    }
+    .about {
+        width: 95%;
+    }
+    .aboutSectionTitle {
+        font-size: .9rem;
+        margin-bottom: 1rem;
+    }
+    .aboutContent p {
+        font-size: var(--s-font-size);
+    }
+    .skills {
+        font-size: var(--m-font-size);
+        width: 60%;
+        justify-content: space-between;
+    }
+    .experienceBtn {
+        font-size: .9rem;
+        padding: .8rem;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 1024px) and (orientation: landscape) {
+    .aboutContainer {
+        padding: 4rem 0;
+    }
+    .about {
+        width: 95%;
+    }
+}
+
+@media only screen 
+    and (min-width: 1024px) 
+    and (max-height: 1366px) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    .aboutContent p {
+        font-size: 3rem;
+    }
+    .skills {
+        font-size: 4rem;
+        margin: 2rem auto 4rem auto;
+    }
+    .experienceBtn {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .about {
+        width: 80%;
+    }
+    .aboutSectionTitle {
+        font-size: 1.2rem;
+    }
+}

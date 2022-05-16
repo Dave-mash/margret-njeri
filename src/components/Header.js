@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { createRef, Component } from "react"
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { TiDelete } from 'react-icons/ti'
 
 import '../styles/components/header.css'
 import logo from '../images/logo.png'
@@ -13,7 +12,7 @@ export default class Header extends Component {
         super(props);
         this.navbar = createRef();
         this.handleScroll = this.handleScroll.bind(this);
-        this.showMobileMenu = this.showMobileMenu.bind(this);
+        this.toggleMobileMenu = this.toggleMobileMenu.bind(this);
         this.hideMobileMenu = this.hideMobileMenu.bind(this);
 
         this.state = {
@@ -57,8 +56,10 @@ export default class Header extends Component {
         };
     }
 
-    showMobileMenu() {
-        this.setState(() => ({ showMobileMenu: true }));
+    toggleMobileMenu() {
+        this.setState((prevState) => ({
+            showMobileMenu: prevState.showMobileMenu === true ? false : true
+        }));
     }
 
     hideMobileMenu() {
@@ -91,13 +92,12 @@ export default class Header extends Component {
                                 />
                             </Link>
                         </div>
-                        <GiHamburgerMenu className="menu" onClick={this.showMobileMenu} />
+                        <GiHamburgerMenu className="menu" onClick={this.toggleMobileMenu} />
                         {this.state.showMobileMenu && <div
                             className="mobileMenu mb"
                             onClick={this.hideMobileMenu}
                         >
                             <ul className="menuList">
-                                <TiDelete className="exitMenu" onClick={this.hideMobileMenu} />
                                 <Link to="/">
                                     <li className={`mbNavLink ${home ? "mbActive" : ""}`}>Home</li>
                                 </Link>

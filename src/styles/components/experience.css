@@ -20,8 +20,10 @@
     justify-content: space-between;
     padding-top: 1rem;
 }
-.experienceMenu {
+.experienceMenuContainer {
     flex: 25%;
+}
+.experienceMenu {
     list-style: none;
     font-size: var(--s-font-size);
     padding: 0;
@@ -58,4 +60,84 @@
 }
 .responsibilities {
     font-size: 1rem;
+}
+
+
+@media screen and (min-width: 10em) and (max-width: 48em) {
+    .experienceContainer {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .spacing {
+        display: none;
+    }
+    .experienceSection {
+        width: 90%;
+        padding-top: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .experienceSectionTitle {
+        margin-bottom: 0;
+    }
+    .experienceMenuContainer {
+        width: 100%;
+        overflow: scroll;
+        padding: 1rem 0;
+        margin-top: 1rem;
+    }
+    .experienceContent {
+        margin-top: 1rem;
+    }
+    .experienceMenu {
+        width: 200vw;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .menuItem {
+        padding: 1rem 0;
+        border: none;
+        width: 100%;
+        display: flex;
+        border-bottom: .2rem solid var(--white);
+        justify-content: center;
+    }
+    .activeMenu {
+        border-color: var(--mustard);
+    }
+    .experienceTitle {
+        font-size: var(--m-font-size);
+    }
+    .timeline {
+        font-size: .9rem;
+    }
+    .experienceDescription {
+        font-size: var(--s-font-size);
+    }
+    .responsibilities {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 1024px) {
+    .experienceContainer {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .experienceSection {
+        width: 80%;
+    }
+    .experienceMenu {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 1024px) and (orientation: portrait) {
+    .experienceMenu {
+        width: auto;
+    }
 }

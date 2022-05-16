@@ -18,3 +18,53 @@
     margin: 0 auto;
     width: 30%;
 }
+
+.MuiFormLabel-root,
+.MuiInputLabel-root,
+.MuiInputLabel-formControl,
+.MuiInputLabel-animated,
+.MuiInputLabel-filled {
+    color: #666;
+}
+
+.MuiFormLabel-root:focus,
+.MuiFilledInput-underline:focus,
+.MuiInputBase-input:focus,
+.MuiInputLabel-filled:focus,
+.Mui-focused:focus {
+    color: var(--white)
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: var(--white);
+}
+
+.MuiFilledInput-underline:after {
+    border-bottom: .1rem solid var(--white);
+}
+
+.MuiInputBase-formControl {
+    background: #444547;
+}
+
+.submit {
+    color: var(--white);
+    background: none;
+    border: .1rem solid var(--white)
+}
+
+.submit:hover {
+    background: var(--white);
+    color: var(--base-color);
+}
+
+
+@media screen and (min-width: 10em) and (max-width: 70em) {
+    .contactSection {
+        padding-top: 4rem;
+    }
+    .form {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+}

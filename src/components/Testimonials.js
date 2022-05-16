@@ -28,7 +28,7 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
-            <span className="border"><CgShapeZigzag /></span>
+            {/* <span className="border"><CgShapeZigzag /></span> */}
         </section>
     )
 }

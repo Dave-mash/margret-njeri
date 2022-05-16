@@ -21,11 +21,13 @@ const Experience = () => {
         <section className="experienceContainer" id="experience">
             <h1 className="experienceSectionTitle">EXPERIENCE</h1>
             <div className="experienceSection">
-                <ul className="experienceMenu">
-                    <li className="menuItem activeMenu" onClick={(e) => handleActiveMenu(e)}>Experience One</li>
-                    <li className="menuItem" onClick={(e) => handleActiveMenu(e)}>Experience Two</li>
-                    <li className="menuItem" onClick={(e) => handleActiveMenu(e)}>Experience Three</li>
-                </ul>
+                <div className="experienceMenuContainer">
+                    <ul className="experienceMenu">
+                        <li className="menuItem activeMenu" onClick={(e) => handleActiveMenu(e)}>Experience One</li>
+                        <li className="menuItem" onClick={(e) => handleActiveMenu(e)}>Experience Two</li>
+                        <li className="menuItem" onClick={(e) => handleActiveMenu(e)}>Experience Three</li>
+                    </ul>
+                </div>
                 <span className="spacing"></span>
                 <div className="experienceContent">
                     <h4 className="experienceTitle">{experience[active].title}</h4>

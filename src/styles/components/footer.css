@@ -3,10 +3,15 @@
 .footer {
     background-color: var(--base-color);
     color: var(--white);
-    padding-top: 2rem;
-    padding-left: 2rem;
-    min-height: 20rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+
+@media screen and (min-width: 10em) and (max-width: 48em) {
+    .footer {
+        padding: 1rem 0;
+    }
 }

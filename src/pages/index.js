@@ -22,7 +22,7 @@ export default function Home() {
         <div className="homeContainer">
           <div className="homeContent">
             <div className="content">
-              <h1 className="title">Margret Njeri</h1>
+              <h1 className="title">Margret <br className="mb" />Njeri</h1>
               <div className="photoContainer">
                 <img
                   src={photo}
