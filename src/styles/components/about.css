@@ -17,6 +17,7 @@
 .aboutSectionTitle {
     font-size: 1rem;
     margin-bottom: 1rem;
+    color: #666;
 }
 .aboutContent p {
     font-size: var(--m-font-size);

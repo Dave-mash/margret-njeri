@@ -12,6 +12,7 @@
 .experienceSectionTitle {
     font-size: 1rem;
     margin-bottom: 1rem;
+    color: #666;
 }
 .experienceSection {
     width: 75%;
@@ -84,7 +85,7 @@
     .experienceMenuContainer {
         width: 100%;
         overflow: scroll;
-        padding: 1rem 0;
+        padding: 0;
         margin-top: 1rem;
     }
     .experienceContent {

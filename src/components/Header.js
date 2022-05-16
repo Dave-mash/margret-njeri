@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { createRef, Component } from "react"
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 
 import '../styles/components/header.css'
 import logo from '../images/logo.png'
@@ -114,6 +115,11 @@ export default class Header extends Component {
                                     <li className={`mbNavLink ${contact ? "mbActive" : ""}`}>Contact</li>
                                 </Link>
                             </ul>
+                            <div className="socialsIcons mb">
+                                <Link to="/"><AiFillGithub className="socials" /></Link>
+                                <Link to="/"><AiFillLinkedin className="socials" /></Link>
+                                <Link to="/"><AiFillTwitterCircle className="socials"/></Link>
+                            </div>
                         </div>}
                         <ul className="links dsk">
                             <Link to="/">

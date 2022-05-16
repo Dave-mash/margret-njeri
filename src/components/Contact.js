@@ -1,5 +1,6 @@
 import * as React from "react"
 import { useFormik } from 'formik'
+import { Link } from "gatsby";
 import {
     makeStyles,
     createMuiTheme,
@@ -7,6 +8,7 @@ import {
 } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 
 import { ContactSchema } from '../utils/FormValidation'
 import '../styles/components/contact.css'
@@ -122,6 +124,11 @@ const Contact = () => {
                     </Button>
                 </ThemeProvider>
             </form>
+            <div className="socialsIcons mb">
+                <Link to="/"><AiFillGithub className="socials" /></Link>
+                <Link to="/"><AiFillLinkedin className="socials" /></Link>
+                <Link to="/"><AiFillTwitterCircle className="socials"/></Link>
+            </div>
         </section>
     )
 }
